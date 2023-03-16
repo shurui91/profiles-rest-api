@@ -4,7 +4,7 @@
 `vagrant ssh`
 `cd /vagrant`
 
-## get into the virtual environment
+## activate the virtual environment
 `source ~/env/bin/activate`
 
 ## django start a project
