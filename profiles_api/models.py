@@ -6,6 +6,7 @@ from django.contrib.auth.models import BaseUserManager
 
 class UserProfileManager(BaseUserManager):
     """manager for user profiles"""
+
     def create_user(self, email, name, password=None):
         """create a new uesr profile"""
         if not email:
@@ -18,7 +19,7 @@ class UserProfileManager(BaseUserManager):
         user.save(using=self._db)
 
         return user
-    
+
     def create_superuser(self, email, name, password):
         """create and save a superuser with given details"""
         user = self.create_user(email, name, password)
