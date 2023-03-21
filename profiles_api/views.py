@@ -48,6 +48,7 @@ class HelloApiView(APIView):
 
 class HelloViewSet(viewsets.ViewSet):
     """Test API ViewSet"""
+
     def list(self, request):
         """Return a hello message."""
         a_viewset = [
