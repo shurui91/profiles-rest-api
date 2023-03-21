@@ -33,6 +33,7 @@ class HelloApiView(APIView):
             return Response(serializer.errors,
                             status=status.HTTP_400_BAD_REQUEST)
 
+    # pk = primary key
     def put(self, request, pk=None):
         """handle updating an object"""
         return Response({'method': 'PUT'})
