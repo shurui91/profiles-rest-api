@@ -4,6 +4,9 @@
 `vagrant ssh`
 `cd /vagrant`
 
+## create a virtual environment called `venv`
+`python3 -m venv ~/venv`
+
 ## activate the virtual environment
 `source ~/env/bin/activate`
 
