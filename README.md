@@ -7,8 +7,8 @@
 ## create a virtual environment called `venv`
 `python3 -m venv ~/venv`
 
-## activate the virtual environment
-`source ~/env/bin/activate`
+## activate the `venv` virtual environment
+`source ~/venv/bin/activate`
 
 ## django create a project
 `django-admin.py startproject profiles_project .`
